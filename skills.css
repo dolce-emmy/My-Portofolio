@@ -1,0 +1,385 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=El+Messiri&family=Great+Vibes&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Great Vibes", cursive;
+    font-size: 1.5rem;
+    background-color: #f5f3f4;
+    /* color: #403d39; */
+    /* color: #e0afa0; */
+    /* color: #463f3a;
+color: #dab49d; */
+    color: #895737;
+}
+
+.logo {
+    width: 70px;
+
+    background-color: #f5f3f4;
+    border-radius: 50%;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+}
+
+.logo-container {
+
+    margin-left: 20px;
+    
+    }
+
+
+
+nav {
+    /* display: flex;
+    justify-content: flex-end;
+   
+    margin: 1rem; */
+   position: relative;
+   width: 100%;
+    
+}
+
+ul {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+   /*  margin-left: 680px; */
+    
+    
+
+  
+
+}
+
+
+
+.menu-container {
+
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+
+
+
+
+}
+
+li {
+    list-style-type: none;
+
+    /* margin: 2rem; */
+}
+
+a {
+    text-decoration: none;
+    /* color: #403d39; */
+    color: #895737;
+}
+
+nav li a:hover {
+
+ 
+    background-color: #f8edeb;
+     
+ }
+
+img {
+    width: 40%;
+}
+
+main {
+    /* background-color: #edede9; */
+    /* background-color: #f5ebe0; */
+    /* background-color: #f3e9dc; */
+    background-color: #d6ccc2;
+    height: 70vh;
+}
+
+.main-container {
+    /* margin: 0 auto; */
+    /* width: 80%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    
+}
+
+.image-container {
+    /* margin: 0 auto; */
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+h1 {
+    /* padding-top: 3rem; */
+    font-family: 'El Messiri', sans-serif;
+    
+    margin-left: 3rem;
+    margin-top: 5rem;
+}
+
+
+h1 > p {
+
+margin: 0;
+}
+
+p {
+
+margin: 0;
+    font-family: 'El Messiri', sans-serif;
+    margin-left: 2rem;
+    padding: 1rem;
+}
+
+
+
+
+.letter {
+    animation-duration: 3.6s;
+    animation-name: light;
+    animation-iteration-count: infinite;
+   /*  animation-fill-mode: forwards; */
+   
+}
+
+.letter1 {
+    animation-delay: 0.2s;
+}
+
+.letter2 {
+    animation-delay: 0.4s;
+}
+
+.letter3 {
+    animation-delay: 0.6s;
+}
+
+.letter4 {
+    animation-delay: 0.8s;
+}
+
+.letter5 {
+    animation-delay: 1s;
+}
+
+
+.letter6 {
+    
+    animation-delay: 1.2s;
+}
+
+.letter7 { 
+
+    animation-delay: 1.4s;
+}
+
+.letter8 {
+
+    animation-delay: 1.6s;
+}
+
+
+.letter9 {
+
+    animation-delay: 1.8s;
+}
+
+
+.letter10 {
+
+    animation-delay: 2s;
+}
+
+
+.letter11 {
+
+    animation-delay: 2.2s;
+}
+
+.letter12 {
+
+    animation-delay: 2.4s;
+}
+
+.letter13 {
+
+    animation-delay: 2.6s;
+}
+
+
+.letter14 {
+
+    animation-delay: 2.8s;
+}
+
+
+.letter15 {
+
+    animation-delay: 3s;
+}
+
+.letter16 {
+
+    animation-duration: 3.4s;
+}
+
+
+.letter17 {
+
+
+    animation-duration: 3.6s;
+}
+
+
+
+@keyframes light {
+    0% {
+        /* color: #f5f3f4; */
+        color: #895737;
+        text-shadow: none;
+    
+    }
+
+    90% {
+        /* color: #f5f3f4; */
+        color: #895737;
+        text-shadow: 0;
+    }
+
+    100% {
+        color: #f5f3f4;
+
+        text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px,
+        #f8edeb 0px 0px 20px, #f8edeb 0px 0px 30px, #f8edeb 0px 0px 40px,
+        #f8edeb 0px 0px 50px, #f8edeb 0px 0px 75px;
+        color: #d9d9d9;
+
+}
+
+}
+
+
+
+
+@media screen and (max-width:1390px) {
+
+    main {
+
+
+height: 60vh;
+
+    }
+
+    h1 {
+        font-size: 2.6rem;
+    }
+    
+
+    img {
+        width: 43%;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width:902px) {
+
+    main {
+    
+        height: 50vh;
+    }
+    
+    img {
+        width: 50%;
+    }
+        
+    }
+
+
+
+
+@media screen and (max-width:686px) {
+
+    h1 {
+        font-size: 2.6rem;
+    }
+    
+    img {
+        width: 60%;
+    }
+   
+
+
+
+
+
+}
+
+
+@media screen and (max-width:500px) {
+    
+
+ a {
+    font-size: 1rem;
+}
+
+
+.logo {
+
+    width: 56px;
+}
+
+.menu-container {
+
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-30%,3);
+
+
+
+
+}
+
+    h1 {
+
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
+
+
+    .image-container img {
+
+        width: 100%;
+    }
+
+
+    main {
+     height: 80vh;
+     width: 90%;
+     margin: 0 auto;
+     /* max-width: 500px; */
+     
+    }
+
+
+
+}
+
+
+
+
